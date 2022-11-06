@@ -6,7 +6,6 @@
 <body>
 
 <h1>Pasta House</h1>
-<p>contact</p>
 
 <ul>
     <li><a href="../index.html">Home</a></li>
@@ -16,9 +15,27 @@
     <li><a href="../pages/contact.html">Contact</a></li>
 </ul>
 
-<div class="gallery">
-    <img src="../assets/images/spag1.avif" alt="spaghetti">
-</div>
+<section class="form-section">
+        
+    <form method="GET" action="feedback.html" class="signup-form">
+        
+        <h2>Contact us</i></h2>
+        
+        <label for="fname">First Name</label>
+        <input id="fname" class="text-input" name="first_name" type="text" required>
+        
+        <label for="lname">Last Name</label>
+        <input id="lname" class="text-input" name="last_name" type="text" required>
+        
+        <label for="email">Email Address</label>
+        <input type="email" class="text-input" id="email" name="email_address" required>
+        
+        <label for="comment">Leave a comment</label>
+        <textarea id="comment" class="text-input" name="comment" type="text" style="height:100px; text-align: start;"></textarea>
+        
+        <input class="submit-button" type="submit" value="submit">
+    </form>
+</section>
 
 </body>
 </html>
