@@ -45,6 +45,17 @@ ul {
     transform: translate(-50%, -50%);
   }
 
+  /* about */
+
+.about {
+    font-size: xx-large;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -70%);
+  }
+
 /* Form */
 
 .form-section {
