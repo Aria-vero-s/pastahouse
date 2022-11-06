@@ -1,3 +1,42 @@
+/* color palette: #ef8354, #6d6875, #eef0f2, #ddd92a, #a7c283 */
+
 body{
-    background-color: blue;
+    background-color: #EEF0F2;
+    color: #5C6452;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6D6875;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #EEF0F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #EEF0F2;
+    color: #5C6452;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 0px;
+    float: left;
+    width: 180px;
+}
+
+h1 {
+    color: #EF8354;
 }
