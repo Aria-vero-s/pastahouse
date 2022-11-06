@@ -30,12 +30,14 @@ ul {
     color: #5C6452;
   }
 
-  div.gallery {
-    margin: 5px;
-    border: 0px;
-    float: left;
-    width: 180px;
-}
+  .ethos {
+    font-size: xx-large;
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 h1 {
     color: #EF8354;
