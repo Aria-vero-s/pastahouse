@@ -1,8 +1,10 @@
 /* color palette: #ef8354, #6d6875, #eef0f2, #ddd92a, #a7c283 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 body{
     background-color: #EEF0F2;
     color: #5C6452;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -54,6 +56,18 @@ ul {
     top: 50%;
     left: 75%;
     transform: translate(-50%, -70%);
+  }
+
+  /* menu */
+
+  .menu {
+    font-size: xx-large;
+    color:#000;
+    position: absolute;
+    background-image: url(../assets/images/bruschetta.avif);
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 /* Form */
